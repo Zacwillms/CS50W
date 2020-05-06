@@ -1,0 +1,72 @@
+.text1, #h1, ul, #h4 {
+  border: solid 1px;
+  text-align: center;
+  color: #ff6347;
+}
+
+#h4 {
+  border-color: #6f42c1;
+}
+
+ul {
+  border-color: #6f42c1;
+}
+
+#h1 {
+  border-color: #6f42c1;
+}
+
+.text1 {
+  border-color: #6f42c1;
+}
+
+ul {
+  padding: 20px;
+}
+
+.text1 {
+  font-style: italic;
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 250%;
+}
+
+#table1 {
+  text-align: center;
+  width: 100%;
+  border: solid 1px;
+}
+
+#h1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 400%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+h4::before {
+  content: "Zac";
+}
+
+#table1 {
+  background-color: tan;
+}
+
+@media screen and (max-width: 992px) {
+  #table1 {
+    background-color: #28a745;
+  }
+}
+@media screen and (max-width: 600px) {
+  #table1 {
+    background-color: white;
+  }
+}
+
+/*# sourceMappingURL=customstyle.css.map */
